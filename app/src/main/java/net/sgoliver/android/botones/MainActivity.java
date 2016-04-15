@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
         btnBotonSimple.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0)
             {
-                toast = Toast.makeText(getApplicationContext(),"Botón Simple pulsado!", Toast.LENGTH_SHORT);
+                toast = Toast.makeText(getApplicationContext(),"Botón Simple pulsado!!", Toast.LENGTH_SHORT);
                 toast.show();
             }
         });
